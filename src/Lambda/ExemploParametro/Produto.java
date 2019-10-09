@@ -1,11 +1,11 @@
-package Lambda.Predicate;
+package Lambda.ExemploParametro;
 
-public class Product {
+public class Produto {
 	//observer que nao tem os metodos hash e equals definido
 	private String nome;
 	private double preco;
 	
-	public Product(String nome, double preco) {
+	public Produto(String nome, double preco) {
 		this.nome = nome;
 		this.preco = preco;
 	}
@@ -23,7 +23,7 @@ public class Product {
 	}
 	
 	//um jeito de fazer passando um produto. Precisa ter uma referencia pois a classe eh estatica
-	public static boolean staticProductPredicate(Product p) {
+	public static boolean staticProductPredicate(Produto p) {
 		return p.getPreco() >= 100;
 	}
 	
