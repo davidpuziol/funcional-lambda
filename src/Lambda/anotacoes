@@ -1,0 +1,14 @@
+Isso na verdade eh uma interface com apenas 1 metodo abstrato para ser implementado
+Por isso chamamos de interface funcional
+
+Predicate
+faz um teste e volta um booleano
+Tem que implementar o metodo TEST....  exemplo de utilizacao eh o removeIf()
+
+Function
+Tem dois paramtros um T e um R. Recebe um parametro de um tipo T e retorna um tipo R
+Tem que implementar o metodo APPLY....  exemplo de utilizacao eh o foreach() 
+
+Consumer
+executa uma funcao void que faz uma acao para a instancia da classe, pode causar excessao
+Tem que implementar o ACCEPT que faz uma acao e nao retorna nada. ...  exemplo de utilizacao eh o map()
